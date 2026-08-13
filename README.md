@@ -10,7 +10,7 @@ Esse pacote configura a pasta `.agents` e os arquivos centrais no seu projeto at
 Em qualquer projeto novo, basta rodar:
 
 ```bash
-npx agy-maker
+
 ```
 
 Isso fará uma cópia da estrutura `.agents` e `AGENTS.md` para a pasta onde o comando foi executado.
