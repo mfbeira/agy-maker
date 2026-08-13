@@ -1,0 +1,15 @@
+{
+  "name": "agy-maker",
+  "version": "1.0.0",
+  "description": "Template corporativo para Antigravity IDE",
+  "main": "index.js",
+  "bin": {
+    "agy-maker": "./bin/install.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["antigravity", "template", "vibe-coding"],
+  "author": "",
+  "license": "MIT"
+}
