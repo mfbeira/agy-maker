@@ -1,15 +1,35 @@
 {
   "name": "agy-maker",
   "version": "1.0.0",
-  "description": "Template corporativo para Antigravity IDE",
-  "main": "index.js",
+  "description": "Template e gerador de estrutura de workspace para Google Antigravity IDE e Gemini CLI",
+  "main": "bin/install.js",
   "bin": {
     "agy-maker": "./bin/install.js"
   },
+  "files": [
+    ".agents",
+    "docs",
+    "AGENTS.md",
+    ".env.example",
+    "bin"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/install.js"
   },
-  "keywords": ["antigravity", "template", "vibe-coding"],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfbeira/agy-maker.git"
+  },
+  "keywords": [
+    "antigravity",
+    "gemini-cli",
+    "agents",
+    "skills",
+    "workflows",
+    "template",
+    "scaffolding",
+    "ai-agents"
+  ],
+  "author": "Marcos Barreto",
   "license": "MIT"
 }
